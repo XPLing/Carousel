@@ -1,0 +1,9 @@
+.g-carousel-wrap { position: relative; width: 800px; height: 270px; margin: 20px auto; overflow: hidden; }
+.g-carousel-wrap .g-carousel-list { position: relative; z-index: 5;}
+.g-carousel-wrap .g-carousel-list .g-carousel-item { display: block; position: absolute; left: 0; top: 0;  list-style: none; }
+.g-carousel-wrap .g-carousel-list .g-carousel-item:first-child { z-index: 10; }
+.g-carousel-wrap .g-carousel-btnbox .g-carousel-btn{ position: absolute; z-index: 10; opacity: 0; top: 0; bottom: 0; width: 30px; border: none; background-color: transparent; cursor: pointer; outline: none;
+ transition: opacity 0.3s; -webkit-transition: opacity 0.3s; -ms-transition: opacity 0.3s; -o-transition: opacity 0.3s; -moz-transition: opacity 0.3s;}
+.g-carousel-wrap .g-carousel-btnbox .g-carousel-btn.m-carousel-active{opacity: 0.8; }
+.g-carousel-wrap .g-carousel-btnbox .g-carousel-btn-prev { background: url(../imgs/btn_l.png) no-repeat center center; }
+.g-carousel-wrap .g-carousel-btnbox .g-carousel-btn-next { right: 0; background: url(../imgs/btn_r.png) no-repeat center center; }
