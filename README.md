@@ -1,7 +1,7 @@
 # Carousel
 旋转木马
 ##use
-- ###param
+- param
  -  参数说明 放置在每个轮播g-carousel-wrap所在标签的data-setting属性里格式是json格式
 ```
 {
@@ -19,7 +19,7 @@
 		"btnHover": false //控制按钮是否通过hover要显示		
 }
 ```
-- ###html
+- html
 ```
     <div class="g-carousel-wrap" data-setting='{"width":0.9,"height":300,"posterWidth":600,"posterHeight":300,"scale":0.9,"speed":500,"autoPlay":false,"delay":5000,"verticalAlign":"top"}'>
     	<ul class="g-carousel-list">
@@ -33,14 +33,14 @@
     	</div>
     </div>
 ```
-- ###CSS
+- CSS
 ```
     <!-- normalize.css is Unnecessary -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <!-- main css -->
     <link rel="stylesheet" type="text/css" href="css/layout.css"/>
 ```
-- ###Javascript
+- Javascript
 ```
 <script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
